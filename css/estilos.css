@@ -69,9 +69,8 @@ nav {
 	float: right;
 }
 
-ul{
+ul {
 	list-style: none
-
 }
 
 nav ul {
@@ -129,8 +128,40 @@ nav ul li a:hover {
 	border: 1px solid #999;
 	height: 80px;
 	width: 100px;
-  }
+}
 
-  .galeria{
-	  margin-left: 10px;
-  }
+.galeria {
+	margin-left: 10px;
+}
+
+a:link {
+	color: #666;
+}
+
+a:visited {
+	color: #666
+}
+
+a:hover {
+	color: darkblue;
+}
+
+iframe {
+	border: 0;
+}
+
+.mapas {
+	text-align: center;
+	width: 4000;
+}
+
+hr {
+	size: 10px;
+	color: #333;
+	border-style: groove;
+}
+
+.description{
+	text-align: justify;
+	margin-left: 40px;
+}
